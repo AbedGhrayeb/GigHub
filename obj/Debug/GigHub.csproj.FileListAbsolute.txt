@@ -105,3 +105,5 @@ D:\ABED\Projects\GigHub\GigHub\obj\Debug\GigHub.dll
 D:\ABED\Projects\GigHub\GigHub\obj\Debug\GigHub.pdb
 D:\ABED\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.initialModel.resources
 D:\ABED\Projects\GigHub\GigHub\obj\Debug\GigHub.csproj.GenerateResource.cache
+D:\ABED\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.createGigModel.resources
+D:\ABED\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.dataAnnotationForGigModel.resources
