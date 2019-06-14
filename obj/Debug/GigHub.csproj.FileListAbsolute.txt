@@ -107,3 +107,4 @@ D:\ABED\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.initialModel.resource
 D:\ABED\Projects\GigHub\GigHub\obj\Debug\GigHub.csproj.GenerateResource.cache
 D:\ABED\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.createGigModel.resources
 D:\ABED\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.dataAnnotationForGigModel.resources
+D:\ABED\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.populateGenreModel.resources

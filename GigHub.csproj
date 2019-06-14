@@ -185,6 +185,10 @@
     <Compile Include="Migrations\201906142309102_dataAnnotationForGigModel.Designer.cs">
       <DependentUpon>201906142309102_dataAnnotationForGigModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201906142342273_populateGenreModel.cs" />
+    <Compile Include="Migrations\201906142342273_populateGenreModel.Designer.cs">
+      <DependentUpon>201906142342273_populateGenreModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
@@ -277,6 +281,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201906142309102_dataAnnotationForGigModel.resx">
       <DependentUpon>201906142309102_dataAnnotationForGigModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906142342273_populateGenreModel.resx">
+      <DependentUpon>201906142342273_populateGenreModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
