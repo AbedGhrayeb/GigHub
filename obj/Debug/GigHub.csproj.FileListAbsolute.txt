@@ -109,3 +109,4 @@ D:\ABED\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.createGigModel.resour
 D:\ABED\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.dataAnnotationForGigModel.resources
 D:\ABED\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.populateGenreModel.resources
 D:\ABED\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.addForginKeyToGig.resources
+D:\ABED\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.addNameToIdentityUser.resources
