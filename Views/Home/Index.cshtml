@@ -21,7 +21,28 @@
                 <span class="genre">
                     @item.Genre.Name
                 </span>
+                <button class="btn btn-default btn-sm pull-right js-toggel-attendances">Going ?</button>
             </div>
         </li>
         }
     </ul>
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            $(".js-toggel-attendances").click(function (e) {
+                var button = $(e.target);
+                $.post("/api/attendances", { gigId: button.attr("data-gig-id") })
+                    .done(function () {
+                        button
+                            .removeClass("btn-default")
+                                .addClass("btn-info")
+                                .text("Going");
+                    })
+                    .fail(function () {
+                        alert("Something failed!");
+                    });
+            });
+            });
+        
+    </script>
+    }
