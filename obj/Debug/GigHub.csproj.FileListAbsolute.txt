@@ -121,3 +121,4 @@ D:\ABED\Projects\GigHub\GigHub\bin\IdentityManager.pdb
 D:\ABED\Projects\GigHub\GigHub\bin\System.Net.Http.Formatting.xml
 D:\ABED\Projects\GigHub\GigHub\bin\System.Web.Http.xml
 D:\ABED\Projects\GigHub\GigHub\bin\System.Web.Http.WebHost.xml
+D:\ABED\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.addFolowwing.resources
