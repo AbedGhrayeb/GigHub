@@ -19,6 +19,10 @@
             <div class="details">
                 <span class="artist">
                     @item.Artist.Name
+                    @if (item.IsCanceled)
+                    {
+                        <label class="label label-warning">Canceled </label>
+                    }
                     @if (Model.ShowActions)
                     {
                         <button class="btn btn-link btn-sm js-toggel-follow" data-user-id="@item.ArtistId">Follow</button>
@@ -27,9 +31,9 @@
                 <span class="genre">
                     @item.Genre.Name
                 </span>
-                @if (Model.ShowActions)
+                @if (Model.ShowActions && !item.IsCanceled)
                 {
-                    <button class="btn btn-default btn-sm pull-right js-toggel-attendances">Going?</button>
+                    <button class="btn btn-default btn-sm pull-right js-toggel-attendance">Going?</button>
                 }
             </div>
         </li>
@@ -38,7 +42,7 @@
 @section scripts{
     <script>
         $(document).ready(function () {
-            $(".js-toggel-attendances").click(function (e) {
+            $(".js-toggel-attendance").click(function (e) {
                 var button = $(e.target);
                 $.post("/api/attendances", { gigId: button.attr("data-gig-id") })
                     .done(function () {

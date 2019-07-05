@@ -1,0 +1,37 @@
+﻿@model GigHub.ViewModels.ArtistViewModel
+@{
+    ViewBag.Title = "Following";
+}
+
+<h1>@Model.Heading</h1>
+<ul class="gigs voffset4">
+    @foreach (var item in Model.FollowingArtists)
+    {
+        <li>
+         
+            <div class="details">
+                <span class="artist">
+                    @item 
+                    <button class="btn btn-default btn-sm pull-right js-toggel-unfollow">Unfollow</button>
+               </span>
+                </div>
+        </li>
+    }
+</ul>
+@section scripts{
+    <script>
+        $(document).ready(function () {
+
+            $(".js-toggel-unfollow").click(function (e) {
+                var button = $(e.target);
+                $.post("/api/followings/UnFollow", { followeeId: button.attr("data-user-id") })
+                    .done(function () {
+                        button.text("Follow");
+                    })
+                    .fail(function () {
+                        alert("Something failed!");
+                    });
+            });
+        });
+    </script>
+    }

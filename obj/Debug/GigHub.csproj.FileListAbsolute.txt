@@ -122,3 +122,7 @@ D:\ABED\Projects\GigHub\GigHub\bin\System.Net.Http.Formatting.xml
 D:\ABED\Projects\GigHub\GigHub\bin\System.Web.Http.xml
 D:\ABED\Projects\GigHub\GigHub\bin\System.Web.Http.WebHost.xml
 D:\ABED\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.addFolowwing.resources
+D:\ABED\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddCanceledGig.resources
+D:\ABED\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddNotification.resources
+D:\ABED\Projects\GigHub\GigHub\bin\AutoMapper.dll
+D:\ABED\Projects\GigHub\GigHub\bin\AutoMapper.xml
